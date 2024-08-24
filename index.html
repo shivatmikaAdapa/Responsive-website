@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <img src="./Images/logo.png" alt="" class="logo">
+            <h1>Learn Coding</h1>
+        </div>
+        <ul class="nav">
+            <li class="mobile"><a href="">Home</a></li>
+            <li class="mobile"><a href="">About</a></li>
+            <li class="mobile"><a href="">Contact us</a></li>
+            <li class="mobile"><a href="">Services</a></li>
+            <li onclick="shownav()" id="menu-btn"><a href="javascript:void(0)"><svg fill="white" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        <ul class="hide">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Services</a></li>
+            <li onclick="hidenav()"><a href="javascript:void(0)"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <img src="./Images/bg-img.png" alt="" class="bg" />
+        <div class="hero1">
+            <span class="first">Let's Learn Together</span>
+            <span class="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloremque libero dolor iste, minima sint tenetur quam officiis, facere, molestias soluta enim nobis corrupti quibusdam consectetur necessitatibus suscipit aut fugit!</span>
+            <form action="">
+                <input type="text" placeholder="Enter your E-mail" />
+                <label for="">Subscribe</label>
+            </form>
+        </div>
+    </section>
+
+    <section class="hero2">
+        <div class="left1">
+            <p>
+                <span class="big-txt">What is Coding?</span>
+                <span class="small-txt">Coding is the process of writing instructions that a computer can understand and execute. These instructions are written in programming languages like Python, Java, or C++, which translate human logic into machine-readable code. Coding is essential for creating software, websites, apps, and many other digital tools that we use daily. It involves problem-solving, logical thinking, and creativity, allowing developers to build complex systems and solve real-world challenges. By learning to code, individuals can automate tasks, develop innovative solutions, and contribute to the ever-evolving field of technology. It’s a skill that empowers people to turn ideas into functional digital realities.</span>
+            </p>
+        </div>
+        <div class="right1">
+            <img src="./Images/first-img.jpg" alt="coding" />
+        </div>
+    </section>
+    <section class="hero2">
+        <div class="left1">
+            <p>
+                <span class="big-txt">How to Start Coding?</span>
+                <span class="small-txt">To start coding, begin by choosing a beginner-friendly programming language like Python or JavaScript, known for their simplicity and widespread use. Find online resources, such as tutorials or coding platforms, that offer step-by-step guidance for beginners. Start with basic concepts like variables, loops, and functions, and practice by building small projects to reinforce your learning. Familiarize yourself with a code editor or integrated development environment (IDE) where you can write and test your code. Join coding communities or forums to ask questions and gain insights from more experienced programmers. Consistently practice and challenge yourself with more complex tasks as you progress. Remember, patience and persistence are key as you develop your coding skills.</span>
+            </p>
+        </div>
+        <div class="right1">
+            <img src="./Images/second-img.jpg" alt="coding" />
+        </div>
+    </section>
+    <footer>
+        COPYRIGHT &copy; All Rights Reserved 2024
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
